@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as Services } from "./Services";
+export { default as Content } from "./Content";
+export { default as Target } from "./Target";
+export { default as Contact } from "./Contact";
+export { default as Reviews } from "./Reviews";
+export { default as About } from "./About";
+export { default as Footer } from "./Footer";
+export { default as Button } from "./Button";
+export { default as TitleSection } from "./TitleSection";
