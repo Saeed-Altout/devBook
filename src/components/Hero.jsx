@@ -8,10 +8,12 @@ const Hero = () => {
       <div className={`${styles.boxContainer}`}>
         <div className={`${styles.flexBetween} flex-col md:flex-row gap-5`}>
           <div className="basis-1 md:basis-2/3">
-            <h1 className={`${styles.titleWebsite}`}>
+            <h1 className={`${styles.titleWebsite} text-center md:text-left`}>
               Free Book & eBook Landing Page Template
             </h1>
-            <p className={`${styles.paragraph} max-w-[660px] py-5`}>
+            <p
+              className={`${styles.paragraph} max-w-[660px] py-5 text-center md:text-left`}
+            >
               A free Bootstrap 5 template for developers and programmers who
               want to self-publish books. Download now and start selling your
               book right away!
