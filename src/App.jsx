@@ -18,9 +18,7 @@ const App = () => {
       <div className="dark:bg-[#03010b]">
         <button
           onClick={() => setDarkMode((prev) => !prev)}
-          className={`fixed top-10 right-8 text-3xl ${
-            darkMode ? "text-white" : "text-[#ed6524]"
-          }`}
+          className={`bg-[#ed6524] rounded-l-full p-3 fixed bottom-10 -right-0 text-lg z-[1000] text-white`}
         >
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
