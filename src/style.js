@@ -1,34 +1,31 @@
-const styles = {
-  titleWebsite: "font-bold text-3xl md:text-4xl lg:text-5xl font-poppins",
-  paragraph:
-    "font-poppins font-normal text-gray-600 text-base leading-[30.8px]",
-  boxContainer: "container mx-auto overflow-hidden px-6 md:px-16 lg:px-32",
-  boxSection: "py-20",
+const flex = {
+  center: "flex justify-center items-center",
+  start: "flex justify-start items-start",
+  end: "flex justify-end items-end",
+  between: "flex justify-between items-center",
+};
+const tag = {
+  section: "py-40 w-full",
+  container: "px-6 container mx-auto",
+  button: "text-base font-medium py-3 px-12 rounded-full",
+};
+const text = {
+  p: "text-black tracking-wider text-base leading-8 dark:text-white",
+  h1: "font-bold text-4xl tracking-wide dark:text-white",
+  h2: "font-bold text-3xl tracking-wide dark:text-white",
+  h3: "font-bold text-2xl tracking-wide dark:text-white",
+  h4: "font-bold text-xl tracking-wide dark:text-white",
+  h5: "font-semibold text-lg tracking-wide dark:text-white",
+  h6: "font-bold text-md tracking-wide dark:text-white",
 
-  gridSystem: " grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3",
-  heading2: " text-3xl font-poppins text-center font-semibold",
-  heading4: "text-lg font-medium font-poppins",
+  titleHero:
+    "font-bold text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-center sm:text-left dark:text-white",
+  subTitleHero:
+    "text-black tracking-wider text-base sm:text-lg leading-8 text-center sm:text-left dark:text-white",
 
-  flexCenter: "flex justify-center items-center",
-  flexBetween: "flex justify-between items-center",
-  flexStart: "flex justify-center items-start",
-
-  paddingX: "sm:px-16 px-6",
-  paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-12 py-4",
-
-  marginX: "sm:mx-16 mx-6",
-  marginY: "sm:my-16 my-6",
+  headSection: "text-3xl text-center font-semibold dark:text-white",
+  subHeadSection:
+    "text-black  tracking-wider text-base sm:text-lg leading-8 text-center mt-3 dark:text-white",
 };
 
-export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
-  sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-
-  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
-};
-
-export default styles;
+export { flex, tag, text };

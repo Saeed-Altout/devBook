@@ -1,42 +1,22 @@
-import profile1 from "../assets/profile-1.png";
-import profile2 from "../assets/profile-2.png";
-import profile3 from "../assets/profile-3.png";
-import profile4 from "../assets/profile-4.png";
-import profile5 from "../assets/profile-5.png";
-import { AiFillBuild } from "react-icons/ai";
-
-import ioi12 from "../assets/instagram.svg";
-export const introPage = [
-  {
-    title: `Free Book & eBook Landing Page Template`,
-    description: `A free Bootstrap 5 template for developers and programmers who want to self-publish books. Download now and start selling your book right away!`,
-  },
-];
-export const profile = [
-  {
-    img: profile1,
-    description1: `This book landing page template is made by product designer Xiaoying Riley for developers. You can use this template to self-publish and promote your book/ebook. You can easily use platforms such as Gumroad to handle your book payment and delivery.`,
-    description2: `This template is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work. If you’d like to use this template without the footer attribution link, you can buy the commercial license.`,
-  },
-];
+import { profile1, profile2, profile3, profile4, profile5 } from "../assets";
 
 export const teams = [
   {
-    id: 1,
+    id: 0,
     name: "Andy Doe",
     position: "Frontend Developer, Company Lorem",
     imgUrl: profile1,
     comment: ` "Awesome! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod nunc porta urna facilisis tempor. Praesent mauris neque, viverra quis erat vitae."`,
   },
   {
-    id: 2,
+    id: 1,
     name: "James Doe",
     position: "Co-Founder, Startup Week",
     imgUrl: profile2,
     comment: `"Excellent Book! Add your book reviews here consectetur adipiscing elit. Aliquam euismod nunc porta urna facilisis tempor. Praesent mauris neque, viverra quis erat vitae, auctor imperdiet nisi."`,
   },
   {
-    id: 3,
+    id: 2,
     name: "Jean Doe",
     position: "Co-Founder, Startup Week",
     imgUrl: profile3,
@@ -46,43 +26,37 @@ export const teams = [
 
 export const services = [
   {
-    id: 1,
-    icon: ioi12,
+    id: 0,
     title: "Build Lorem Ipsum lobortis nec mauris habitant morbi",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",
   },
   {
-    id: 2,
-    icon: ioi12,
+    id: 1,
     title: "Learn from lorem ipsum dolor sit amet consectetur",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",
   },
   {
-    id: 3,
-    icon: ioi12,
+    id: 2,
     title: "Discover phasellus id egestas tellus maximus",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",
   },
   {
-    id: 4,
-    icon: ioi12,
+    id: 3,
     title: "Master aliquet augue ac ipsum lobortis interdum",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",
   },
   {
-    id: 5,
-    icon: ioi12,
+    id: 4,
     title: "Deploy elementum mauris tincidunt tempus sagittis",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",
   },
   {
-    id: 6,
-    icon: ioi12,
+    id: 5,
     title: "Become mattis est et mauris tempus non imperdiet",
     description:
       "List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.",

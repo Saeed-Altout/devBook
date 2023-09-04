@@ -1,10 +1,11 @@
 import React from "react";
+import { tag } from "../style";
 
 const Button = ({ text, styles }) => {
   return (
     <button
       type="button"
-      className={`${styles} text-base font-poppins font-semibold py-[0.875rem] px-[2.5rem] rounded-[2rem]`}
+      className={`${tag.button} ${styles} whitespace-nowrap`}
     >
       {text}
     </button>
